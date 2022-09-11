@@ -6,7 +6,7 @@ class Node:
 
 class Stack:
     def __init__(self):
-        self.head = Node(None)
+        self.head = None
         self.size = 0
 
     def push(self, value):
@@ -22,6 +22,8 @@ class Stack:
         self.size -= 1
 
     def peek(self):
+        if self.get_size() == 0:
+            raise EmptyStackException()
         return self.head.value
 
     def get_size(self):
