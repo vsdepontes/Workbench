@@ -3,3 +3,9 @@
 
 # C
 **/cmake-build-debug/*
+
+# TypeScript
+**/node_modules/*
+
+# Python
+**/__pycache__/*
