@@ -29,7 +29,7 @@ int peek(StackNode* top)
 
 int size(StackNode* top)
 {
-    if(is_stack_empty(top))
+    if (is_stack_empty(top))
         return 0;
     int size = 1;
     struct StackNode* temp_top = top;
