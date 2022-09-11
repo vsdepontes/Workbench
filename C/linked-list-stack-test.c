@@ -43,7 +43,7 @@ int main()
                 break;
             }
             case 3: {
-                if (peek(top) == -1) {
+                if (size(top) == 0) {
                     empty_stack_message();
                     printf("\n");
                     break;

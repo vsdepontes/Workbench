@@ -22,8 +22,6 @@ int pop(StackNode** top)
 
 int peek(StackNode* top)
 {
-    if (is_stack_empty(top))
-        return -1;
     return top->value;
 }
 
