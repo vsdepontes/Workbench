@@ -22,7 +22,7 @@ class Stack:
 
     def peek(self):
         if self.get_size() == 0:
-            raise EmptyStackException()
+            return None
         return self.head.value
 
     def get_size(self):
