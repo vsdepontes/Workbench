@@ -5,10 +5,10 @@
 
 void push(StackNode** top, int value)
 {
-    struct StackNode *newNode = (struct StackNode*)malloc(sizeof(struct StackNode));
-    newNode->value = value;
-    newNode->next = *top;
-    *top = newNode;
+    struct StackNode *new_node = (struct StackNode*)malloc(sizeof(struct StackNode));
+    new_node->value = value;
+    new_node->next = *top;
+    *top = new_node;
 }
 
 int pop(StackNode** top)
