@@ -1,0 +1,13 @@
+{
+  "name": "workbench",
+  "version": "1.0.0",
+  "author": "Vinicius Santos de Pontes",
+  "devDependencies": {
+    "@types/node": "^18.7.16",
+    "@types/readline-sync": "^1.4.4",
+    "readline-sync": "^1.4.10",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.3"
+  }
+}
